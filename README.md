@@ -1,4 +1,10 @@
-# Yunshang Stability Test Framework
+# Stability Test Framework
+- based on golang and C#
+- remote machine provide API service by golang revel
+- remote machine run GUI test via Ranorex
+- control machine seed HTTP request to remote machine to start GUI test
+- control machine control other node machines via ssh
+- GUI test case play channel via Chrome live_test.swf page
 
 ## 3 main roles
     Controller machine      - Linux
