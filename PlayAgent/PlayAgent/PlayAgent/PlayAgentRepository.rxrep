@@ -1,0 +1,446 @@
+﻿<repository
+name="PlayAgentRepository"
+id="d3d9dd39-34ec-4e56-94dc-2c3086a6465e"
+rxversion="5.4.0.24580">
+	<codegen
+	classname="PlayAgentRepository"
+	namespace="PlayAgent"/>
+	<rootfolder
+	name="Root"
+	id="a8e25e70-4db3-464c-b4ee-21ab079838c5"
+	searchtimeout="0ms"
+	capname="unknown"
+	isrooted="True"
+	usecache="True">
+		<appfolder
+		name="BlankPage"
+		id="a90bbccc-15d4-4680-b18d-9e75604beb7c"
+		searchtimeout="30000ms"
+		capname="form"
+		addcaps="form,nativewindow"
+		refimgid="d7f7fabc-cf86-4184-be4a-ec6056c40c90"
+		isrooted="True"
+		usecache="True">
+			<item
+			name="LiveTestSwf"
+			id="8dbe3a21-a4df-4a82-afb0-f9c56087660d"
+			searchtimeout="30000ms"
+			capname="button"
+			addcaps="button,nativeitem,checkable"
+			refimgid="09ca01ee-d589-4cf6-850f-cfb128706b2f">
+				/form[@title='&#31354;&#30333;&#39029; - ']/element[@class='CommandBarClass']//toolbar[@instance='1']/button[@text='live_test.swf']
+			</item>
+			<basepath>
+				/form[@title='&#31354;&#30333;&#39029; - ']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAOWSURBVDhPjZJtTFtVGMdPRUL8QIIouI63Dcmy
+bjayTRHJ5qYzum8m2+pm4qLZnNmbG6wtb6JlGwOHWjcC6DaivEx0hVEu1BXalW5tE14Lcy1Lh5S2
+t+1GSym03Aq94nm898IHv+kv+eec5Dz/5znPcw76L/IumeIDPYk588aEk/Rk/BQ1EEfN9/LocC/P
+FlShjNWwfyHTP72+WC0SntP8cqTppr1v+MMl3yMhTRkSIKSJXZrriqnxXEGHfTfQSX8zsq26Vkgq
+ILI2lmsN+5us7qbx6YjjiRjTngTwtSbizubD0ZKGBp9Apqpki7Dxj2vRDGdkSc5vz9wk09gK7vqi
+Gu8EDs++DdiOwNG6C4jf+6BiPAwf6bx4a5XRn3xKUSsSKWK8tahpxc1k3CjTmgr6ntBDfjNEZ4WA
++xGY5Hl/7b1mCu6QG70H26Zcn1sW6GP3/PiNOvN88um2euflmN2cP71YJdr705hb436A6YAAsB7B
+kDw3WK3Wvofx7bg14vaMdaVq6faaQfNZY5D+uNeLsy/esfPFym1cAuF59a8/Wx5GqNnXAQ8iePSt
+cBpj7QaAkVguYJXsC3fGjvXMTB3p88HO+pHptJKuq9zBnhrdhMv7KcYOBFbFIfig0YwF5Rp31he9
+ZCaj9WVqMqPkN/LlKqO7bIjCp4wB2NNijaRKiREuQedQNYW9z4Dr+haoG/dAlZ2GSkYXWU3SUMHo
+wh9ROD+xBDJLBI4bArC70bKUWqS0IvynYEfYvW452JKAax56oNy2iF/9bsDHVlyRimRmRKYXqci0
+wm4ytZAgU6Sd5FqJ0sk/e6sR/e1P/HpxGMGNxjPRMgsFktFIOLvS8IC72v9heRL1P26JCx/60eA9
+oHJiqXlhWaSwzQnO6dpeKOjIYZ/4OWln/POnFdvWijvaGTn4kg6Sv7IeRQt6XmiWiK3bXK7q31pt
+iHyi90Hh/YXlozpv6DW5yZVWTLg2yNTOvG8MjuO6mbn8wRB+v5uMpkuVo9yPDPXwguxNMiSKNS8W
+EbZcuZHaR7jwif45EI9FQHI/wq2fDYfhwG0Sv3N9dDGztMv+bH7bZq6FsIbX4mtGRez+rdKKlNyy
+awMvfaly5FTfndl+dSS6q9mK32wYpXZ+PxB4pUrrTCsk9EknbmZxZhbqHuL7W5HecxkBeQlN2r9C
+xVsk9fuYHn9gJj2YIrk1niJWdjP7K0ln2t9FMtlTq1YGhP4B4PYIf3slspsAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		name="WwwCutvCom"
+		id="db27b99b-bdf7-4825-8498-c5b713e31871"
+		searchtimeout="30000ms"
+		capname="webdocument"
+		refpath="/dom[1]"
+		addcaps="container,webdocument"
+		isrooted="True"
+		usecache="False">
+			<item
+			name="SomeBodyTag"
+			id="b6f3ebdb-93f3-49c2-97e7-f829be0717b7"
+			searchtimeout="30000ms"
+			capname="bodytag"
+			refpath="/dom[1]/body"
+			addcaps="unknown,webelement,bodytag"
+			refimgid="eeb92ddf-b9a1-4a6e-9d2c-a79d79462676">
+				/dom[1]/body
+			</item>
+			<folder
+			name="HttpLocalhostLiveTestSwf"
+			id="3d388c08-38a9-4d9f-9e64-f24c05676722"
+			searchtimeout="30000ms"
+			capname="flexobject"
+			refpath="/dom[1]/body/flexobject[@movie='http://localhost/live_test.swf']"
+			addcaps="container,flexobject"
+			isrooted="True"
+			usecache="False">
+				<item
+				name="停止N"
+				id="c81b826a-4694-4e91-b6d9-0a3703522f41"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/dom[1]/body/flexobject[@movie='http://localhost/live_test.swf']/text[@caption='停止\n']"
+				addcaps="text,flexelement"
+				refimgid="39b0e789-58d0-43d9-8d60-fb256f764781">
+					/dom[1]/?/?/flexobject[@movie='http://localhost/live_test.swf']/text[@caption='&#20572;&#27490;\n']
+				</item>
+				<item
+				name="播放N"
+				id="71d4d644-2ece-4238-8566-49fffc912ba3"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/dom[1]/body/flexobject[@movie='http://localhost/live_test.swf']/text[@caption='播放\n']"
+				addcaps="text,flexelement"
+				refimgid="412d7040-1118-4106-b702-6c6a9403489f">
+					/dom[1]/?/?/flexobject[@movie='http://localhost/live_test.swf']/text[@caption='&#25773;&#25918;\n']
+				</item>
+				<item
+				name="RtmpTxt"
+				id="6a2b7993-c9f0-4c6f-9b0c-3b27fd08f855"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/dom[1]/body/flexobject[@movie='http://localhost/live_test.swf']/text[@displayname='rtmp_txt']"
+				addcaps="text,flexelement"
+				refimgid="77880899-6735-46a1-8dc6-13c4e014e93f">
+					/dom[1]/?/?/flexobject[@movie='http://localhost/live_test.swf']/text[@displayname='rtmp_txt']
+				</item>
+				<item
+				name="FirstPlayTimeNBufferQuantityN"
+				id="03dd1fce-8bc5-49b5-9cd8-5b55bf8c58c2"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/dom[1]/body/flexobject[@movie='http://localhost/live_test.swf']/text[@caption='firstPlayTime:\nBufferQuantity:\n']"
+				addcaps="text,flexelement"
+				refimgid="7c1da4ef-4713-427d-9ff8-f8c0f5e40f71">
+					/dom[1]/?/?/flexobject[@movie='http://localhost/live_test.swf']/text[@caption~'^firstPlayTime:\\nBufferQua']
+				</item>
+				<item
+				name="StartAndBuffer"
+				id="f5a6c347-ed27-44e8-a0f7-4c94652d0423"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/dom[1]/body/flexobject[@movie='http://localhost/live_test.swf']/text[@displayname='qTxt']"
+				addcaps="text,flexelement"
+				refimgid="01839043-3df9-4cac-9793-a713b1c34e13">
+					/dom[1]/?/?/flexobject[@movie='http://localhost/live_test.swf']/text[@displayname='qTxt']
+				</item>
+				<basepath>
+					/dom[1]/?/?/flexobject[@movie='http://localhost/live_test.swf']
+				</basepath>
+			</folder>
+			<folder
+			name="HttpLocalhost9000PublicPlayerLive"
+			id="6e11436d-b3b0-4d98-a469-91a5d82505a9"
+			searchtimeout="30000ms"
+			capname="flexobject"
+			refpath="/dom[@domain='localhost:9000']/body/flexobject[@movie='http://localhost:9000/public/player/live_test.swf']"
+			addcaps="container,flexobject"
+			isrooted="True"
+			usecache="False">
+				<item
+				name="停止N"
+				id="12667f9a-fd0a-43b3-a6dd-f87613827414"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/dom[@domain='localhost:9000']/body/flexobject[@movie='http://localhost:9000/public/player/live_test.swf']/text[@caption='停止\n']"
+				addcaps="text,flexelement"
+				refimgid="c2a50811-1801-46fc-a4d7-303e6d137d48">
+					/dom[1]/?/?/flexobject[@movie='http://localhost:9000/public/player/live_test.swf']/text[@caption='&#20572;&#27490;\n']
+				</item>
+				<item
+				name="播放N"
+				id="112df601-af1e-470f-9a11-162da8a431d6"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/dom[@domain='localhost:9000']/body/flexobject[@movie='http://localhost:9000/public/player/live_test.swf']/text[@caption='播放\n']"
+				addcaps="text,flexelement"
+				refimgid="6ff3a47c-8073-49f2-8c89-700941ec5942">
+					/dom[1]/?/?/flexobject[@movie='http://localhost:9000/public/player/live_test.swf']/text[@caption='&#25773;&#25918;\n']
+				</item>
+				<item
+				name="RtmpTxt"
+				id="5612e68a-0e46-4e6b-ac03-c5133d7a410a"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/dom[@domain='localhost:9000']/body/flexobject[@movie='http://localhost:9000/public/player/live_test.swf']/text[@displayname='rtmp_txt']"
+				addcaps="text,flexelement"
+				refimgid="df343d23-1d12-46ee-9d3a-16c97e748d9a">
+					/dom[1]/?/?/flexobject[@movie='http://localhost:9000/public/player/live_test.swf']/text[@displayname='rtmp_txt']
+				</item>
+				<item
+				name="FirstPlayTimeNBufferQuantityN"
+				id="1fec4012-9b99-4bd3-bdef-fc23c342abc6"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/dom[@domain='localhost:9000']/body/flexobject[@movie='http://localhost:9000/public/player/live_test.swf']/text[@caption='firstPlayTime:\nBufferQuantity:\n']"
+				addcaps="text,flexelement"
+				refimgid="4c8ced9b-aedc-4173-977d-d8e0f14a454c">
+					/dom[1]/?/?/flexobject[@movie='http://localhost:9000/public/player/live_test.swf']/text[@caption~'^firstPlayTime:\\nBufferQua']
+				</item>
+				<item
+				name="StartAndBuffer"
+				id="1156b00c-3ac3-4207-8c33-5434120e8cd9"
+				searchtimeout="30000ms"
+				capname="text"
+				refpath="/dom[@domain='localhost:9000']/body/flexobject[@movie='http://localhost:9000/public/player/live_test.swf']/text[@displayname='qTxt']"
+				addcaps="text,flexelement"
+				refimgid="db4b5a44-07b5-4ee7-b742-534db187df84">
+					/dom[1]/?/?/flexobject[@movie='http://localhost:9000/public/player/live_test.swf']/text[@displayname='qTxt']
+				</item>
+				<basepath>
+					/dom[1]/?/?/flexobject[@movie='http://localhost:9000/public/player/live_test.swf']
+				</basepath>
+			</folder>
+			<basepath>
+				/dom[1]
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		name="HttpWwwCutvComDemoLiveTestSwf"
+		id="4decb25a-8eb6-4d82-a90a-7c8d62f1fb93"
+		searchtimeout="30000ms"
+		capname="form"
+		refpath="/form[@title='http://www.cutv.com/demo/live_test.swf - ']"
+		addcaps="form,nativewindow"
+		refimgid="b3af96d3-d2cf-4d46-b11b-e5b504759f08"
+		isrooted="True"
+		usecache="True">
+			<item
+			name="LiveTestSwf"
+			id="5625b2e0-0e5a-4d5e-8e7c-5335cbe0d4f4"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/form[@title~'^http://www\.cutv\.com/demo/' and @processname='iexplore']/element[@class='CommandBarClass']/container/element/toolbar[@class='ToolbarWindow32' and @instance='1']/button[@text='live_test.swf']"
+			addcaps="button,nativeitem,checkable"
+			refimgid="73d227f8-d681-494e-9a16-e20ed42a1ec6">
+				/form[@title~'^http://www\.cutv\.com/demo/' and @processname='iexplore']/element[@class='CommandBarClass']//toolbar[@instance='1']/button[@text='live_test.swf']
+			</item>
+			<folder
+			name="选项卡行"
+			id="9dcf22ee-6b10-4c77-8f65-30f04c626b27"
+			searchtimeout="30000ms"
+			capname="tabpagelist"
+			refpath="/form[@title='http://www.cutv.com/demo/live_test.swf - ']/element[@class='WorkerW']/container[@controlid='40966']/container[@class='TabBandClass']/container[@class='DirectUIHWND']/tabpagelist[@accessiblename='选项卡行']"
+			addcaps="tabpagelist,accessible"
+			isrooted="True"
+			usecache="False">
+				<item
+				name="CutvCom"
+				id="a42a37b5-9645-42d4-988d-b244500681cd"
+				searchtimeout="30000ms"
+				capname="tabpage"
+				refpath="/form[@title='http://www.cutv.com/demo/live_test.swf - ']/element[@class='WorkerW']/container[@controlid='40966']/container[@class='TabBandClass']/container[@class='DirectUIHWND']/tabpagelist[@accessiblename='选项卡行']/tabpage[@accessiblename='cutv.com' and @accessiblerole='PageTab' and @accessibledescription='cutv.comhttp://www.cutv.com/demo/live_test.swf' and @title='cutv.com' and @index='0']"
+				addcaps="tabpage,accessible"
+				refimgid="84553822-94d3-4c37-a117-825c1aeb5170">
+					/form[@title~'^http://www\.cutv\.com/demo/' and @processname='iexplore']/element[@class='WorkerW']//tabpagelist[@accessiblename='&#36873;&#39033;&#21345;&#34892;']/tabpage[@accessiblerole='PageTab' and @accessibledescription~'^cutv\.comhttp://www\.cutv' and @title='cutv.com' and @index='0']
+				</item>
+				<item
+				name="CutvCom1"
+				id="73022e70-6285-453b-96b4-04bb17b65eef"
+				searchtimeout="30000ms"
+				capname="tabpage"
+				refpath="/form[@title='http://www.cutv.com/demo/live_test.swf - ']/element[@class='WorkerW']/container[@controlid='40966']/container[@class='TabBandClass']/container[@class='DirectUIHWND']/tabpagelist[@accessiblename='选项卡行']/tabpage[@accessiblename='cutv.com' and @accessiblerole='PageTab' and @accessibledescription='cutv.comhttp://www.cutv.com/demo/live_test.swf' and @title='cutv.com' and @index='1']"
+				addcaps="tabpage,accessible"
+				refimgid="5815052b-48de-4f94-b899-f3173980f028">
+					/form[@title~'^http://www\.cutv\.com/demo/' and @processname='iexplore']/element[@class='WorkerW']//tabpagelist[@accessiblename='&#36873;&#39033;&#21345;&#34892;']/tabpage[@accessiblerole='PageTab' and @accessibledescription~'^cutv\.comhttp://www\.cutv' and @title='cutv.com' and @index='1']
+				</item>
+				<item
+				name="CutvCom2"
+				id="121bddaf-12a5-437e-b30d-3959fabb202c"
+				searchtimeout="30000ms"
+				capname="tabpage"
+				refpath="/form[@title='http://www.cutv.com/demo/live_test.swf - ']/element[@class='WorkerW']/container[@controlid='40966']/container[@class='TabBandClass']/container[@class='DirectUIHWND']/tabpagelist[@accessiblename='选项卡行']/tabpage[@accessiblename='cutv.com' and @accessiblerole='PageTab' and @accessibledescription='cutv.comhttp://www.cutv.com/demo/live_test.swf' and @title='cutv.com' and @index='2']"
+				addcaps="tabpage,accessible"
+				refimgid="ecc28cd8-1c0d-4a7e-83a8-6f8d48f26c4e">
+					/form[@title~'^http://www\.cutv\.com/demo/' and @processname='iexplore']/element[@class='WorkerW']//tabpagelist[@accessiblename='&#36873;&#39033;&#21345;&#34892;']/tabpage[@accessiblerole='PageTab' and @accessibledescription~'^cutv\.comhttp://www\.cutv' and @title='cutv.com' and @index='2']
+				</item>
+				<basepath>
+					/form[@title~'^http://www\.cutv\.com/demo/' and @processname='iexplore']/element[@class='WorkerW']//tabpagelist[@accessiblename='&#36873;&#39033;&#21345;&#34892;']
+				</basepath>
+			</folder>
+			<basepath>
+				/form[@title~'^http://www\.cutv\.com/demo/' and @processname='iexplore']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAOWSURBVDhPjZJtTFtVGMdPRUL8QIIouI63Dcmy
+bjayTRHJ5qYzum8m2+pm4qLZnNmbG6wtb6JlGwOHWjcC6DaivEx0hVEu1BXalW5tE14Lcy1Lh5S2
+t+1GSym03Aq94nm898IHv+kv+eec5Dz/5znPcw76L/IumeIDPYk588aEk/Rk/BQ1EEfN9/LocC/P
+FlShjNWwfyHTP72+WC0SntP8cqTppr1v+MMl3yMhTRkSIKSJXZrriqnxXEGHfTfQSX8zsq26Vkgq
+ILI2lmsN+5us7qbx6YjjiRjTngTwtSbizubD0ZKGBp9Apqpki7Dxj2vRDGdkSc5vz9wk09gK7vqi
+Gu8EDs++DdiOwNG6C4jf+6BiPAwf6bx4a5XRn3xKUSsSKWK8tahpxc1k3CjTmgr6ntBDfjNEZ4WA
++xGY5Hl/7b1mCu6QG70H26Zcn1sW6GP3/PiNOvN88um2euflmN2cP71YJdr705hb436A6YAAsB7B
+kDw3WK3Wvofx7bg14vaMdaVq6faaQfNZY5D+uNeLsy/esfPFym1cAuF59a8/Wx5GqNnXAQ8iePSt
+cBpj7QaAkVguYJXsC3fGjvXMTB3p88HO+pHptJKuq9zBnhrdhMv7KcYOBFbFIfig0YwF5Rp31he9
+ZCaj9WVqMqPkN/LlKqO7bIjCp4wB2NNijaRKiREuQedQNYW9z4Dr+haoG/dAlZ2GSkYXWU3SUMHo
+wh9ROD+xBDJLBI4bArC70bKUWqS0IvynYEfYvW452JKAax56oNy2iF/9bsDHVlyRimRmRKYXqci0
+wm4ytZAgU6Sd5FqJ0sk/e6sR/e1P/HpxGMGNxjPRMgsFktFIOLvS8IC72v9heRL1P26JCx/60eA9
+oHJiqXlhWaSwzQnO6dpeKOjIYZ/4OWln/POnFdvWijvaGTn4kg6Sv7IeRQt6XmiWiK3bXK7q31pt
+iHyi90Hh/YXlozpv6DW5yZVWTLg2yNTOvG8MjuO6mbn8wRB+v5uMpkuVo9yPDPXwguxNMiSKNS8W
+EbZcuZHaR7jwif45EI9FQHI/wq2fDYfhwG0Sv3N9dDGztMv+bH7bZq6FsIbX4mtGRez+rdKKlNyy
+awMvfaly5FTfndl+dSS6q9mK32wYpXZ+PxB4pUrrTCsk9EknbmZxZhbqHuL7W5HecxkBeQlN2r9C
+xVsk9fuYHn9gJj2YIrk1niJWdjP7K0ln2t9FMtlTq1YGhP4B4PYIf3slspsAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		name="HttpLocalhostLiveTestSwf"
+		id="d4e347e3-f56d-497d-8c73-3c2de90796be"
+		searchtimeout="30000ms"
+		capname="form"
+		addcaps="form,nativewindow"
+		isrooted="True"
+		usecache="True">
+			<folder
+			name="选项卡行"
+			id="489e879b-d8b3-4afb-a432-27289a744167"
+			searchtimeout="30000ms"
+			capname="tabpagelist"
+			addcaps="tabpagelist,accessible"
+			isrooted="True"
+			usecache="False">
+				<item
+				name="Localhost"
+				id="9ead90d5-7170-4bcc-beb7-57e9c191025d"
+				searchtimeout="30000ms"
+				capname="tabpage"
+				addcaps="tabpage,accessible"
+				refimgid="bfc2a331-8096-4e9c-a4b2-6be10bd571e2">
+					/form[@title~'^http://localhost/live_tes']/element[@class='WorkerW']//tabpagelist[@accessiblename='&#36873;&#39033;&#21345;&#34892;']/tabpage[@accessiblerole='PageTab' and @accessibledescription~'^localhosthttp://localho' and @title='localhost' and @index='0']
+				</item>
+				<item
+				name="Localhost1"
+				id="0c4fc84e-56f6-490e-b7f7-2ec2e85e3b88"
+				searchtimeout="30000ms"
+				capname="tabpage"
+				addcaps="tabpage,accessible"
+				refimgid="5e7e5c92-e981-4ebb-85f6-9c2088759659">
+					/form[@title~'^http://localhost/live_tes']/element[@class='WorkerW']//tabpagelist[@accessiblename='&#36873;&#39033;&#21345;&#34892;']/tabpage[@accessiblerole='PageTab' and @accessibledescription~'^localhosthttp://localho' and @title='localhost' and @index='1']
+				</item>
+				<item
+				name="Localhost2"
+				id="381e90c5-9789-4b48-a251-6955c298d4ba"
+				searchtimeout="30000ms"
+				capname="tabpage"
+				addcaps="tabpage,accessible"
+				refimgid="1b67a2ff-fe94-45db-9e05-3fb4ff5fea32">
+					/form[@title~'^http://localhost/live_tes']/element[@class='WorkerW']//tabpagelist[@accessiblename='&#36873;&#39033;&#21345;&#34892;']/tabpage[@accessiblerole='PageTab' and @accessibledescription~'^localhosthttp://localho' and @title='localhost' and @index='2']
+				</item>
+				<basepath>
+					/form[@title~'^http://localhost/live_tes']/element[@class='WorkerW']//tabpagelist[@accessiblename='&#36873;&#39033;&#21345;&#34892;']
+				</basepath>
+			</folder>
+			<basepath>
+				/form[@title~'^http://localhost/live_tes']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAOWSURBVDhPjZJtTFtVGMdPRUL8QIIouI63Dcmy
+bjayTRHJ5qYzum8m2+pm4qLZnNmbG6wtb6JlGwOHWjcC6DaivEx0hVEu1BXalW5tE14Lcy1Lh5S2
+t+1GSym03Aq94nm898IHv+kv+eec5Dz/5znPcw76L/IumeIDPYk588aEk/Rk/BQ1EEfN9/LocC/P
+FlShjNWwfyHTP72+WC0SntP8cqTppr1v+MMl3yMhTRkSIKSJXZrriqnxXEGHfTfQSX8zsq26Vkgq
+ILI2lmsN+5us7qbx6YjjiRjTngTwtSbizubD0ZKGBp9Apqpki7Dxj2vRDGdkSc5vz9wk09gK7vqi
+Gu8EDs++DdiOwNG6C4jf+6BiPAwf6bx4a5XRn3xKUSsSKWK8tahpxc1k3CjTmgr6ntBDfjNEZ4WA
++xGY5Hl/7b1mCu6QG70H26Zcn1sW6GP3/PiNOvN88um2euflmN2cP71YJdr705hb436A6YAAsB7B
+kDw3WK3Wvofx7bg14vaMdaVq6faaQfNZY5D+uNeLsy/esfPFym1cAuF59a8/Wx5GqNnXAQ8iePSt
+cBpj7QaAkVguYJXsC3fGjvXMTB3p88HO+pHptJKuq9zBnhrdhMv7KcYOBFbFIfig0YwF5Rp31he9
+ZCaj9WVqMqPkN/LlKqO7bIjCp4wB2NNijaRKiREuQedQNYW9z4Dr+haoG/dAlZ2GSkYXWU3SUMHo
+wh9ROD+xBDJLBI4bArC70bKUWqS0IvynYEfYvW452JKAax56oNy2iF/9bsDHVlyRimRmRKYXqci0
+wm4ytZAgU6Sd5FqJ0sk/e6sR/e1P/HpxGMGNxjPRMgsFktFIOLvS8IC72v9heRL1P26JCx/60eA9
+oHJiqXlhWaSwzQnO6dpeKOjIYZ/4OWln/POnFdvWijvaGTn4kg6Sv7IeRQt6XmiWiK3bXK7q31pt
+iHyi90Hh/YXlozpv6DW5yZVWTLg2yNTOvG8MjuO6mbn8wRB+v5uMpkuVo9yPDPXwguxNMiSKNS8W
+EbZcuZHaR7jwif45EI9FQHI/wq2fDYfhwG0Sv3N9dDGztMv+bH7bZq6FsIbX4mtGRez+rdKKlNyy
+awMvfaly5FTfndl+dSS6q9mK32wYpXZ+PxB4pUrrTCsk9EknbmZxZhbqHuL7W5HecxkBeQlN2r9C
+xVsk9fuYHn9gJj2YIrk1niJWdjP7K0ln2t9FMtlTq1YGhP4B4PYIf3slspsAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		name="HttpLocalhost9000PublicPlayerLive"
+		id="38d1340f-cdc3-4b96-bf0e-49f79517ce42"
+		searchtimeout="30000ms"
+		capname="form"
+		refpath="/form[@title='http://localhost:9000/public/player/live_test.swf - Windows Internet Explorer']"
+		addcaps="form,nativewindow"
+		refimgid="8bfe9526-c78b-4d0d-939c-1a52dab663ce"
+		isrooted="True"
+		usecache="True">
+			<item
+			name="Edit"
+			id="324dd178-046a-4777-bf84-4dc0fb6c5646"
+			searchtimeout="30000ms"
+			capname="text"
+			refpath="/form[@title='http://localhost:9000/public/player/live_test.swf - Windows Internet Explorer']/element[@class='WorkerW']/container[@controlid='40966']/element[@controlid='41477']/text[@class='Edit']"
+			addcaps="text,nativewindow"
+			refimgid="986f11c3-72a9-4f84-8830-acbbd9a7ded5">
+				/form[@title~'^http://localhost:9000/pub']/element[@class='WorkerW']//text[@class='Edit']
+			</item>
+			<item
+			name="ClientCaption"
+			id="ca23607b-5a4a-4b29-b170-efbad48f5c58"
+			searchtimeout="30000ms"
+			capname="unknown"
+			refpath="/form[@title='http://localhost:9000/public/player/live_test.swf - Windows Internet Explorer']/element[@class='Client Caption']"
+			addcaps="unknown,nativewindow"
+			refimgid="dce27e97-47d0-4a63-b042-899f9285a6f7">
+				/form[@title~'^http://localhost:9000/pub']/element[@class='Client Caption']
+			</item>
+			<item
+			name="Localhost"
+			id="0472a442-042f-438e-8263-bfac6a6996bf"
+			searchtimeout="30000ms"
+			capname="tabpage"
+			refpath="/form[@title='http://localhost:9000/public/player/live_test.swf - Windows Internet Explorer']/element[@class='WorkerW']/container[@controlid='40966']/container[@class='TabBandClass']/container[@class='DirectUIHWND']/tabpagelist[@accessiblename='选项卡行']/tabpage[@accessiblename='localhost' and @accessiblerole='PageTab' and @accessibledescription='localhosthttp://localhost:9000/public/player/live_test.swf' and @title='localhost' and @index='0']"
+			addcaps="tabpage,accessible"
+			refimgid="a2be2692-c1d9-4f56-8411-e8513a56090d">
+				/form[@title~'^http://localhost:9000/pub']/element[@class='WorkerW']//tabpagelist[@accessiblename='&#36873;&#39033;&#21345;&#34892;']/tabpage[@accessiblerole='PageTab' and @accessibledescription~'^localhosthttp://localho' and @title='localhost' and @index='0']
+			</item>
+			<basepath>
+				/form[@title~'^http://localhost:9000/pub']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAOWSURBVDhPjZJtTFtVGMdPRUL8QIIouI63Dcmy
+bjayTRHJ5qYzum8m2+pm4qLZnNmbG6wtb6JlGwOHWjcC6DaivEx0hVEu1BXalW5tE14Lcy1Lh5S2
+t+1GSym03Aq94nm898IHv+kv+eec5Dz/5znPcw76L/IumeIDPYk588aEk/Rk/BQ1EEfN9/LocC/P
+FlShjNWwfyHTP72+WC0SntP8cqTppr1v+MMl3yMhTRkSIKSJXZrriqnxXEGHfTfQSX8zsq26Vkgq
+ILI2lmsN+5us7qbx6YjjiRjTngTwtSbizubD0ZKGBp9Apqpki7Dxj2vRDGdkSc5vz9wk09gK7vqi
+Gu8EDs++DdiOwNG6C4jf+6BiPAwf6bx4a5XRn3xKUSsSKWK8tahpxc1k3CjTmgr6ntBDfjNEZ4WA
++xGY5Hl/7b1mCu6QG70H26Zcn1sW6GP3/PiNOvN88um2euflmN2cP71YJdr705hb436A6YAAsB7B
+kDw3WK3Wvofx7bg14vaMdaVq6faaQfNZY5D+uNeLsy/esfPFym1cAuF59a8/Wx5GqNnXAQ8iePSt
+cBpj7QaAkVguYJXsC3fGjvXMTB3p88HO+pHptJKuq9zBnhrdhMv7KcYOBFbFIfig0YwF5Rp31he9
+ZCaj9WVqMqPkN/LlKqO7bIjCp4wB2NNijaRKiREuQedQNYW9z4Dr+haoG/dAlZ2GSkYXWU3SUMHo
+wh9ROD+xBDJLBI4bArC70bKUWqS0IvynYEfYvW452JKAax56oNy2iF/9bsDHVlyRimRmRKYXqci0
+wm4ytZAgU6Sd5FqJ0sk/e6sR/e1P/HpxGMGNxjPRMgsFktFIOLvS8IC72v9heRL1P26JCx/60eA9
+oHJiqXlhWaSwzQnO6dpeKOjIYZ/4OWln/POnFdvWijvaGTn4kg6Sv7IeRQt6XmiWiK3bXK7q31pt
+iHyi90Hh/YXlozpv6DW5yZVWTLg2yNTOvG8MjuO6mbn8wRB+v5uMpkuVo9yPDPXwguxNMiSKNS8W
+EbZcuZHaR7jwif45EI9FQHI/wq2fDYfhwG0Sv3N9dDGztMv+bH7bZq6FsIbX4mtGRez+rdKKlNyy
+awMvfaly5FTfndl+dSS6q9mK32wYpXZ+PxB4pUrrTCsk9EknbmZxZhbqHuL7W5HecxkBeQlN2r9C
+xVsk9fuYHn9gJj2YIrk1niJWdjP7K0ln2t9FMtlTq1YGhP4B4PYIf3slspsAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath/>
+	</rootfolder>
+	<variables/>
+</repository>

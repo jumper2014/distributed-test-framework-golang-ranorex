@@ -1,0 +1,36 @@
+﻿<testsuite
+name="PlayAgent"
+rxversion="5.4.0.24580"
+id="332b081f-f43d-4d96-9188-5f8c47b6df7a"
+reportfilename="%S_%Y%M%D_%T.rxlog"
+reporttemplatefolder=""
+reportxslfilename=""
+placescreenshotsinfolder="True"
+ReportTime="RelativeToTestSuiteStartTime"
+reportwriteinterval="30000ms"
+reportcompress="False"
+enabletracingscreenshots="True"
+TracingScreenshotMode="Foreground"
+TracingScreenshotQuality="40"
+reportlevel="Info;20">
+	<content>
+		<testcase
+		name="TestCase"
+		id="d6132590-90ae-449f-8489-80ca8ca0db46">
+			<testmodule
+			name="PlayerTest"
+			id="59e8af02-33c5-4ce3-889a-1a6cade049be"
+			ref="cff1cf98-b163-4396-8dee-f7cb3dddbe5c"
+			type="UserCode"/>
+		</testcase>
+	</content>
+	<testconfigurations
+	default="TestRun">
+		<testconfiguration
+		name="TestRun">
+			<testcase
+			id="d6132590-90ae-449f-8489-80ca8ca0db46"/>
+		</testconfiguration>
+	</testconfigurations>
+	<references/>
+</testsuite>

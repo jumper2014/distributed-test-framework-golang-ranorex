@@ -1,0 +1,96 @@
+﻿<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{9643E067-4F18-47D7-8D67-B1A5E3A2448A}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>PlayAgent</RootNamespace>
+    <AssemblyName>PlayAgent</AssemblyName>
+    <RanorexVersion>5</RanorexVersion>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <projectdefaultrepository>3d711d62-24d0-444d-a311-c075229ebc79</projectdefaultrepository>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.Targets" />
+  <ItemGroup>
+    <Reference Include="Ranorex.Core, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.ChromeWeb, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Flex, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Java, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Mobile, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.MozillaWeb, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Msaa, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Office, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Qt, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.RawText, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Sap, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Uia, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Web, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Win32, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.WinForms, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Wpf, Version=$(RanorexVersion)" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <id>c327face-5d56-4a24-90d1-a9b7cff03f05</id>
+    </Compile>
+    <Compile Include="PlayAgentRepository.cs">
+      <BoundTo>3d711d62-24d0-444d-a311-c075229ebc79</BoundTo>
+      <DependentUpon>PlayAgentRepository.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>c0fd7c3a-c5fd-4770-9363-a3471ab675f2</id>
+    </Compile>
+    <Compile Include="Program.cs">
+      <id>c3d28bdb-a86c-4dbc-9dfe-e1fb7e2c74f5</id>
+    </Compile>
+    <Compile Include="PlayerTest.cs">
+      <id>a74cf1b5-766e-4175-aa07-a96c944754d9</id>
+    </Compile>
+    <None Include="app.config">
+      <id>2ad102ce-2379-4fb8-abf1-ca368f1b01c7</id>
+    </None>
+    <None Include="PlayAgentRepository.rximg">
+      <BoundTo>3d711d62-24d0-444d-a311-c075229ebc79</BoundTo>
+      <DependentUpon>PlayAgentRepository.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>65845c05-eb2f-43f9-9ce4-a0fd4ec63302</id>
+    </None>
+    <None Include="PlayAgentRepository.rxrep">
+      <id>3d711d62-24d0-444d-a311-c075229ebc79</id>
+      <repoid>d3d9dd39-34ec-4e56-94dc-2c3086a6465e</repoid>
+      <reporootid>a8e25e70-4db3-464c-b4ee-21ab079838c5</reporootid>
+    </None>
+    <Content Include="PlayAgent.rxtmg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>60ba3838-ca3f-498c-8ea1-b44d3528f707</id>
+    </Content>
+    <Content Include="PlayAgent.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>7ce86e37-767d-43a7-993c-6499290e6dca</id>
+    </Content>
+  </ItemGroup>
+  <Import Condition="Exists('$(MSBuildExtensionsPath)\Ranorex$(RanorexVersion)\Ranorex.MSBuild.Targets')" Project="$(MSBuildExtensionsPath)\Ranorex$(RanorexVersion)\Ranorex.MSBuild.Targets" />
+</Project>

@@ -1,0 +1,1 @@
+.\bin\revel.exe run playServer
